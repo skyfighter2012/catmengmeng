@@ -7,7 +7,7 @@
     <timestamps>
       <styleCop>2015/11/15 23:25:44.415</styleCop>
       <settingsFile>2015/11/15 23:25:44.409</settingsFile>
-      <sourceFile>2015/12/07 23:33:19.059</sourceFile>
+      <sourceFile>2015/12/08 00:03:10.451</sourceFile>
       <parser>2015/11/15 23:25:44.415</parser>
       <StyleCop.CSharp.DocumentationRules>2015/11/15 23:25:44.415</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-2129987936</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -40,14 +40,9 @@
         <line>2</line>
         <warning>False</warning>
       </violation>
-      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
-        <context>The class must have a documentation header.</context>
-        <line>6</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
-        <context>The method must have a documentation header.</context>
-        <line>9</line>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementParameterDocumentationMustHaveText" ruleCheckId="SA1614">
+        <context>The documentation text within the param tag for the '&lt;param name="bundles" /&gt;' parameter must not be empty.</context>
+        <line>15</line>
         <warning>False</warning>
       </violation>
     </violations>
@@ -56,7 +51,7 @@
     <timestamps>
       <styleCop>2015/11/15 23:25:44.415</styleCop>
       <settingsFile>2015/11/15 23:25:44.409</settingsFile>
-      <sourceFile>2015/12/07 23:33:19.061</sourceFile>
+      <sourceFile>2015/12/08 00:03:23.387</sourceFile>
       <parser>2015/11/15 23:25:44.415</parser>
       <StyleCop.CSharp.DocumentationRules>2015/11/15 23:25:44.415</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-2129987936</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -90,13 +85,8 @@
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
-        <context>The class must have a documentation header.</context>
-        <line>6</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
         <context>The method must have a documentation header.</context>
-        <line>8</line>
+        <line>11</line>
         <warning>False</warning>
       </violation>
     </violations>
@@ -404,7 +394,7 @@
     <timestamps>
       <styleCop>2015/11/15 23:25:44.415</styleCop>
       <settingsFile>2015/11/15 23:25:44.409</settingsFile>
-      <sourceFile>2015/12/07 23:33:20.527</sourceFile>
+      <sourceFile>2015/12/08 00:03:50.355</sourceFile>
       <parser>2015/11/15 23:25:44.415</parser>
       <StyleCop.CSharp.DocumentationRules>2015/11/15 23:25:44.415</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-2129987936</StyleCop.CSharp.DocumentationRules.FilesHashCode>

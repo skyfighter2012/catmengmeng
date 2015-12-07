@@ -15,3 +15,4 @@ D:\Github\CatMengMeng\Presentation\CatMM.Web\bin\CatMM.Admin.dll
 D:\Github\CatMengMeng\Presentation\CatMM.Web\bin\CatMM.Admin.pdb
 D:\Github\CatMengMeng\Presentation\CatMM.Admin\obj\Debug\CatMM.Admin.dll
 D:\Github\CatMengMeng\Presentation\CatMM.Admin\obj\Debug\CatMM.Admin.pdb
+D:\Github\CatMengMeng\Presentation\CatMM.Admin\obj\Debug\CatMM.Admin.csprojResolveAssemblyReference.cache

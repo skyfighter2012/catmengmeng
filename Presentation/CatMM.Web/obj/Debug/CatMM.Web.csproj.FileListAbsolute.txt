@@ -89,3 +89,7 @@ D:\Github\CatMengMeng\Presentation\CatMM.Web\bin\zh-Hans\Microsoft.Owin.Security
 D:\Github\CatMengMeng\Presentation\CatMM.Web\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
 D:\Github\CatMengMeng\Presentation\CatMM.Web\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
 D:\Github\CatMengMeng\Presentation\CatMM.Web\bin\zh-CHS\Microsoft.Build.Utilities.v3.5.resources.dll
+D:\Github\CatMengMeng\Presentation\CatMM.Web\bin\Autofac.dll
+D:\Github\CatMengMeng\Presentation\CatMM.Web\bin\Autofac.Integration.Mvc.dll
+D:\Github\CatMengMeng\Presentation\CatMM.Web\bin\Autofac.xml
+D:\Github\CatMengMeng\Presentation\CatMM.Web\bin\Autofac.Integration.Mvc.xml
