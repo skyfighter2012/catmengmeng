@@ -11,6 +11,10 @@ namespace CatMM.Admin.Controllers
         public ActionResult Index()
         {
             return View();
+
+
+
+
         }
 
         public ActionResult About()

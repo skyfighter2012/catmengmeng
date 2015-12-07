@@ -1,0 +1,5 @@
+D:\Github\CatMengMeng\Infrastructure\CatMM.Web.Framework\bin\Debug\CatMM.Web.Framework.dll
+D:\Github\CatMengMeng\Infrastructure\CatMM.Web.Framework\bin\Debug\CatMM.Web.Framework.pdb
+D:\Github\CatMengMeng\Infrastructure\CatMM.Web.Framework\obj\Debug\CatMM.Web.Framework.csprojResolveAssemblyReference.cache
+D:\Github\CatMengMeng\Infrastructure\CatMM.Web.Framework\obj\Debug\CatMM.Web.Framework.dll
+D:\Github\CatMengMeng\Infrastructure\CatMM.Web.Framework\obj\Debug\CatMM.Web.Framework.pdb
