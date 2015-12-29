@@ -5,7 +5,4 @@ D:\Github\CatMengMeng\Infrastructure\CatMM.Web.Framework\obj\Debug\CatMM.Web.Fra
 D:\Github\CatMengMeng\Infrastructure\CatMM.Web.Framework\bin\Debug\Autofac.dll
 D:\Github\CatMengMeng\Infrastructure\CatMM.Web.Framework\bin\Debug\StyleCop.CSharp.dll
 D:\Github\CatMengMeng\Infrastructure\CatMM.Web.Framework\bin\Debug\StyleCop.dll
-D:\Github\CatMengMeng\Infrastructure\CatMM.Web.Framework\bin\Debug\Microsoft.Build.Utilities.v3.5.dll
 D:\Github\CatMengMeng\Infrastructure\CatMM.Web.Framework\bin\Debug\Autofac.xml
-D:\Github\CatMengMeng\Infrastructure\CatMM.Web.Framework\bin\Debug\zh-CHS\Microsoft.Build.Utilities.v3.5.resources.dll
-D:\Github\CatMengMeng\Infrastructure\CatMM.Web.Framework\obj\Debug\CatMM.Web.Framework.csprojResolveAssemblyReference.cache

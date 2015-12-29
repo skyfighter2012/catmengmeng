@@ -7,8 +7,15 @@ using System.Web.Routing;
 
 namespace CatMM.Web
 {
+    /// <summary>
+    /// Route config
+    /// </summary>
     public class RouteConfig
     {
+        /// <summary>
+        /// Register routes
+        /// </summary>
+        /// <param name="routes"></param>
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");

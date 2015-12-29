@@ -33,3 +33,4 @@ D:\Github\CatMengMeng\Presentation\CatMM.Web\CatMM.Web\bin\roslyn\VBCSCompiler.e
 D:\Github\CatMengMeng\Presentation\CatMM.Web\CatMM.Web\bin\CatMM.Admin.dll.config
 D:\Github\CatMengMeng\Presentation\CatMM.Web\CatMM.Web\bin\CatMM.Admin.dll
 D:\Github\CatMengMeng\Presentation\CatMM.Web\CatMM.Web\bin\CatMM.Admin.pdb
+D:\Github\catmengmeng\Presentation\CatMM.Web\Administration\obj\Debug\CatMM.Admin.csprojResolveAssemblyReference.cache

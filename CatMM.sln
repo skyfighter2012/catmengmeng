@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{7D6FCD98-D75A-4A55-93FC-748F9E407189}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatMM.Web.Framework", "Infrastructure\CatMM.Web.Framework\CatMM.Web.Framework.csproj", "{6B9C09D3-D232-4007-A3AE-C01DF461F132}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatMM.Admin", "Presentation\CatMM.Web\Administration\CatMM.Admin.csproj", "{BD95B480-9126-4BC0-9473-1C2669685641}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatMM.Infrastructure", "Infrastructure\CatMM.Infrastructure\CatMM.Infrastructure.csproj", "{97ABDC94-90F5-411F-8E75-D2E99069FC6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{BD95B480-9126-4BC0-9473-1C2669685641}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD95B480-9126-4BC0-9473-1C2669685641}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD95B480-9126-4BC0-9473-1C2669685641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97ABDC94-90F5-411F-8E75-D2E99069FC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97ABDC94-90F5-411F-8E75-D2E99069FC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97ABDC94-90F5-411F-8E75-D2E99069FC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97ABDC94-90F5-411F-8E75-D2E99069FC6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,5 +61,6 @@ Global
 		{4E0DD682-B2B6-4CD8-A7DE-5F59CF118A9E} = {64BBE7AF-3F97-4BBF-B3CC-2A5342102145}
 		{6B9C09D3-D232-4007-A3AE-C01DF461F132} = {762FA3DA-E74F-4D9C-A2D1-07A5F8FBABA5}
 		{BD95B480-9126-4BC0-9473-1C2669685641} = {7D6FCD98-D75A-4A55-93FC-748F9E407189}
+		{97ABDC94-90F5-411F-8E75-D2E99069FC6E} = {762FA3DA-E74F-4D9C-A2D1-07A5F8FBABA5}
 	EndGlobalSection
 EndGlobal
