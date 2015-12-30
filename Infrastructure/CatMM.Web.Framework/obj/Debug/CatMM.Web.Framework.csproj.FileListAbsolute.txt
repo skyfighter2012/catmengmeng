@@ -1,8 +1,0 @@
-D:\Github\CatMengMeng\Infrastructure\CatMM.Web.Framework\bin\Debug\CatMM.Web.Framework.dll
-D:\Github\CatMengMeng\Infrastructure\CatMM.Web.Framework\bin\Debug\CatMM.Web.Framework.pdb
-D:\Github\CatMengMeng\Infrastructure\CatMM.Web.Framework\obj\Debug\CatMM.Web.Framework.dll
-D:\Github\CatMengMeng\Infrastructure\CatMM.Web.Framework\obj\Debug\CatMM.Web.Framework.pdb
-D:\Github\CatMengMeng\Infrastructure\CatMM.Web.Framework\bin\Debug\Autofac.dll
-D:\Github\CatMengMeng\Infrastructure\CatMM.Web.Framework\bin\Debug\StyleCop.CSharp.dll
-D:\Github\CatMengMeng\Infrastructure\CatMM.Web.Framework\bin\Debug\StyleCop.dll
-D:\Github\CatMengMeng\Infrastructure\CatMM.Web.Framework\bin\Debug\Autofac.xml

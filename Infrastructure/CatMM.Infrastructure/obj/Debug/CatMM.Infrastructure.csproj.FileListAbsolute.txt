@@ -1,4 +1,6 @@
 D:\Github\catmengmeng\Infrastructure\CatMM.Infrastructure\bin\Debug\CatMM.Infrastructure.dll
 D:\Github\catmengmeng\Infrastructure\CatMM.Infrastructure\bin\Debug\CatMM.Infrastructure.pdb
+D:\Github\catmengmeng\Infrastructure\CatMM.Infrastructure\bin\Debug\DotLiquid.dll
 D:\Github\catmengmeng\Infrastructure\CatMM.Infrastructure\obj\Debug\CatMM.Infrastructure.dll
 D:\Github\catmengmeng\Infrastructure\CatMM.Infrastructure\obj\Debug\CatMM.Infrastructure.pdb
+D:\Github\catmengmeng\Infrastructure\CatMM.Infrastructure\obj\Debug\CatMM.Infrastructure.csprojResolveAssemblyReference.cache

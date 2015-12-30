@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DotLiquid">
+      <HintPath>..\..\packages\DotLiquid.1.8.0\lib\NET45\DotLiquid.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Caching" />
@@ -44,7 +47,13 @@
   <ItemGroup>
     <Compile Include="Caching\ICacheManager.cs" />
     <Compile Include="Caching\MemoryCacheManager.cs" />
+    <Compile Include="Models\ModuleType.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TemplateEngine\DotLiquidTemplateEngine.cs" />
+    <Compile Include="TemplateEngine\DotLiquidTemplateProvider.cs" />
+    <Compile Include="TemplateEngine\ITemplateEngine.cs" />
+    <Compile Include="TemplateEngine\ITemplateEngineProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
