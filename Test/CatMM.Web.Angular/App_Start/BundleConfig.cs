@@ -19,12 +19,14 @@ namespace App.CatMM.Web.Angular
             bundles.Add(new ScriptBundle("~/js/jquery").Include("~/scripts/vendor/jquery-{version}.js"));
 
             bundles.Add(new ScriptBundle("~/js/app").Include(
+                "~/scripts/angular.min.js",
                 "~/scripts/vendor/angular-ui-router.js",
                 "~/scripts/filters.js",
                 "~/scripts/services.js",
                 "~/scripts/directives.js",
                 "~/scripts/controllers.js",
-                "~/scripts/app.js"));
+                "~/scripts/app.js")
+                .IncludeDirectory("~/scripts/controllers", "*.js", true));
         }
     }
 }

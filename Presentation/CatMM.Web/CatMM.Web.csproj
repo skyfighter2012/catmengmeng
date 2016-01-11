@@ -125,6 +125,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <None Include="Scripts\_references.js" />
+    <Content Include="Scripts\utility.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -154,6 +155,10 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Globals\CatMM.Shared\CatMM.Shared.csproj">
+      <Project>{3638c79d-8354-4aa6-a57f-ec66ccf25f73}</Project>
+      <Name>CatMM.Shared</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Infrastructure\CatMM.Infrastructure\CatMM.Infrastructure.csproj">
       <Project>{97abdc94-90f5-411f-8e75-d2e99069fc6e}</Project>
       <Name>CatMM.Infrastructure</Name>

@@ -6,6 +6,7 @@
     <title ng-bind="title">@(PageData["title"] ?? "AngularJS SPA Template for Visual Studio")</title>
     <meta name="description" content="@PageData["description"]">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <base href="/" />
     @Styles.Render("~/content/css/app")
 </head>
 <body>
@@ -45,9 +46,7 @@
     <div id="ui-view" class="container" ui-view data-tmpl-url="@Request.RequestContext.RouteData.DataTokens["templateUrl"]">
         @RenderBody()
     </div>
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
+    @Scripts.Render("~/js/jquery")
     @Scripts.Render("~/js/app")
     @*
         Google Analytics

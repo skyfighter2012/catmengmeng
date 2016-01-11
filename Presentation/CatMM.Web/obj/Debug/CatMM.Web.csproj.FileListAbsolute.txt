@@ -47,5 +47,5 @@ D:\Github\catmengmeng\Presentation\CatMM.Web\bin\CatMM.Infrastructure.dll
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\DotLiquid.dll
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\CatMM.Infrastructure.pdb
 D:\Github\catmengmeng\Presentation\CatMM.Web\obj\Debug\CatMM.Web.csprojResolveAssemblyReference.cache
-D:\Github\catmengmeng\Presentation\CatMM.Web\bin\WebGrease.dll
-D:\Github\catmengmeng\Presentation\CatMM.Web\bin\Antlr3.Runtime.dll
+D:\Github\catmengmeng\Presentation\CatMM.Web\bin\CatMM.Shared.dll
+D:\Github\catmengmeng\Presentation\CatMM.Web\bin\CatMM.Shared.pdb

@@ -2,6 +2,9 @@
 
 namespace CatMM.Admin
 {
+    /// <summary>
+    /// Admin area registration
+    /// </summary>
     public class AdminAreaRegistration : AreaRegistration
     {
         public override string AreaName
