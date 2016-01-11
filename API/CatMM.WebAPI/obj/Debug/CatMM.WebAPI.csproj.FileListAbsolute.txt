@@ -88,3 +88,8 @@ D:\Github\catmengmeng\API\CatMM.WebAPI\bin\CatMM.WebAPI.XML
 D:\Github\catmengmeng\API\CatMM.WebAPI\bin\System.Web.Cors.dll
 D:\Github\catmengmeng\API\CatMM.WebAPI\bin\System.Web.Http.Cors.dll
 D:\Github\catmengmeng\API\CatMM.WebAPI\bin\System.Web.Http.Cors.xml
+D:\Github\CatMengMeng\API\CatMM.WebAPI\bin\Autofac.dll
+D:\Github\CatMengMeng\API\CatMM.WebAPI\bin\Autofac.Integration.WebApi.dll
+D:\Github\CatMengMeng\API\CatMM.WebAPI\bin\Autofac.xml
+D:\Github\CatMengMeng\API\CatMM.WebAPI\bin\Autofac.Integration.WebApi.xml
+D:\Github\CatMengMeng\API\CatMM.WebAPI\obj\Debug\CatMM.WebAPI.csprojResolveAssemblyReference.cache
