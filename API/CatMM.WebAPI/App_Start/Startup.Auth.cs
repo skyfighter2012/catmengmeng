@@ -39,7 +39,6 @@ namespace CatMM.WebAPI
                 Provider = new ApplicationOAuthProvider(PublicClientId),
                 AuthorizeEndpointPath = new PathString("/api/Account/ExternalLogin"),
                 AccessTokenExpireTimeSpan = TimeSpan.FromDays(14),
-                //在生产模式下设 AllowInsecureHttp = false
                 AllowInsecureHttp = true
             };
 

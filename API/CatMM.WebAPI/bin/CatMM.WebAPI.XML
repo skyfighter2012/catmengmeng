@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CatMM.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="T:CatMM.WebAPI.FormatConfig">
+            <summary>
+            Format config
+            </summary>
+        </member>
+        <member name="M:CatMM.WebAPI.FormatConfig.RegisterFormatters(System.Net.Http.Formatting.MediaTypeFormatterCollection)">
+            <summary>
+            Register formatter
+            </summary>
+        </member>
+        <member name="T:CatMM.WebAPI.SwaggerConfig">
+            <summary>
+            Swagger config
+            </summary>
+        </member>
+        <member name="M:CatMM.WebAPI.SwaggerConfig.Register">
+            <summary>
+            Register
+            </summary>
+        </member>
+        <member name="M:CatMM.WebAPI.SwaggerConfig.GetXmlCommentsPath">
+            <summary>
+            Get xml comments path
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

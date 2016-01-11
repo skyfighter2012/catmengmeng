@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("CatMM.WebAPI")]
-[assembly: AssemblyCopyright("版权所有(C)  2015")]
+[assembly: AssemblyCopyright("版权所有(C)  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于 typelib 的 ID
-[assembly: Guid("c345adae-a9f7-49d7-87a5-d8df9677bb9d")]
+[assembly: Guid("4788a722-af7c-4d97-9576-33967df794bb")]
 
 // 程序集的版本信息由下列四个值组成:
 //
