@@ -1,0 +1,7 @@
+D:\Github\catmengmeng\Test\CatMM.Autofac.Study\bin\Debug\CatMM.Autofac.Study.exe.config
+D:\Github\catmengmeng\Test\CatMM.Autofac.Study\bin\Debug\CatMM.Autofac.Study.exe
+D:\Github\catmengmeng\Test\CatMM.Autofac.Study\bin\Debug\CatMM.Autofac.Study.pdb
+D:\Github\catmengmeng\Test\CatMM.Autofac.Study\bin\Debug\Autofac.dll
+D:\Github\catmengmeng\Test\CatMM.Autofac.Study\bin\Debug\Autofac.xml
+D:\Github\catmengmeng\Test\CatMM.Autofac.Study\obj\Debug\CatMM.Autofac.Study.exe
+D:\Github\catmengmeng\Test\CatMM.Autofac.Study\obj\Debug\CatMM.Autofac.Study.pdb

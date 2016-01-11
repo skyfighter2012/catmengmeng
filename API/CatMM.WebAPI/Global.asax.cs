@@ -17,7 +17,6 @@ namespace CatMM.WebAPI
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-            BundleConfig.RegisterBundles(BundleTable.Bundles);
 
             //Our own
             FormatConfig.RegisterFormatters(GlobalConfiguration.Configuration.Formatters);
