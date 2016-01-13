@@ -14,6 +14,17 @@ namespace CatMM.Web
         /// <param name="bundles"></param>
         public static void RegisterBundles(BundleCollection bundles)
         {
+            bundles.Add(
+                new StyleBundle("~/css/core").Include(
+                "~/assets/plugins/bootstrap/css/bootstrap.css"
+                ));
+
+            bundles.Add(
+                new ScriptBundle("~/script/core").Include(
+                "~/assets/scripts/utility.js",
+                "~/assets/plugins/jquery-1.12.0.min.js",
+                "~/assets/plugins/bootstrap/js/bootstrap.js"
+                ));
         }
     }
 }
