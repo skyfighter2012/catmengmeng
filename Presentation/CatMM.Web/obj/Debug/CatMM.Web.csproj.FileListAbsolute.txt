@@ -49,8 +49,8 @@ D:\Github\catmengmeng\Presentation\CatMM.Web\bin\roslyn\VBCSCompiler.exe.config
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\CatMM.Web.dll.config
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\CatMM.Web.dll
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\CatMM.Web.pdb
-D:\Github\catmengmeng\Presentation\CatMM.Web\bin\WebGrease.dll
-D:\Github\catmengmeng\Presentation\CatMM.Web\bin\WebMarkupMin.Web.dll
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\WebMarkupMin.Core.dll
+D:\Github\catmengmeng\Presentation\CatMM.Web\bin\WebMarkupMin.Web.dll
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\CatMM.Web.Framework.dll
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\CatMM.Web.Framework.pdb
+D:\Github\catmengmeng\Presentation\CatMM.Web\bin\WebGrease.dll

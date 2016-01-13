@@ -103,6 +103,15 @@
       <Private>True</Private>
       <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
+    <Reference Include="WebGrease">
+      <HintPath>..\..\..\RealNext\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="WebMarkupMin.Core">
+      <HintPath>..\..\packages\WebMarkupMin.Core.1.0.1\lib\net40\WebMarkupMin.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="WebMarkupMin.Web">
+      <HintPath>..\..\packages\WebMarkupMin.Web.1.0.0\lib\net40\WebMarkupMin.Web.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
@@ -128,6 +137,7 @@
     <Content Include="Assets\plugins\bootstrap\js\bootstrap.js" />
     <Content Include="Assets\plugins\bootstrap\js\bootstrap.min.js" />
     <Content Include="Assets\plugins\bootstrap\js\npm.js" />
+    <Content Include="Assets\plugins\jquery-1.12.0.min.js" />
     <Content Include="content\email.html" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -176,6 +186,10 @@
     <ProjectReference Include="..\..\Infrastructure\CatMM.Infrastructure\CatMM.Infrastructure.csproj">
       <Project>{97abdc94-90f5-411f-8e75-d2e99069fc6e}</Project>
       <Name>CatMM.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\CatMM.Web.Framework\CatMM.Web.Framework.csproj">
+      <Project>{6b9c09d3-d232-4007-a3ae-c01df461f132}</Project>
+      <Name>CatMM.Web.Framework</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
