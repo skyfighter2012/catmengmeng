@@ -120,10 +120,24 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\plugins\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="Assets\plugins\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="Assets\plugins\bootstrap\css\bootstrap.css" />
+    <Content Include="Assets\plugins\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Assets\plugins\bootstrap\js\bootstrap.js" />
+    <Content Include="Assets\plugins\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Assets\plugins\bootstrap\js\npm.js" />
     <Content Include="content\email.html" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Assets\plugins\bootstrap\css\bootstrap-theme.css.map" />
+    <Content Include="Assets\plugins\bootstrap\css\bootstrap.css.map" />
+    <Content Include="Assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Scripts\_references.js" />
     <Content Include="Scripts\utility.js" />
     <Content Include="Web.config" />
@@ -144,7 +158,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Assets\css\" />
     <Folder Include="Assets\images\" />
-    <Folder Include="Assets\plugins\bootstrap\" />
+    <Folder Include="Assets\plugins\modernizr\" />
     <Folder Include="Assets\scripts\" />
   </ItemGroup>
   <ItemGroup>
