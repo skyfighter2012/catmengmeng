@@ -15,11 +15,13 @@ namespace CatMM.Web.Controllers
     /// </summary>
     public class HomeController : Controller
     {
+        [MyActionFilter]
         public ActionResult Index()
         {
             return View();
         }
 
+        
         public ActionResult TestEngine()
         {
             Random ran = new Random();

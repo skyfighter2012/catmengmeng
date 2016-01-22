@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 
 namespace CatMM.Autofac.Study
 {
@@ -20,9 +21,23 @@ namespace CatMM.Autofac.Study
                 writer.WriteDate();
             }
 
+            string url = @"dd ddd-dd/dda\dddaddd/.ddad";
+            Console.WriteLine(url.UrlEncode());
+
             Console.ReadKey();
         }
 
+
+
+
+    }
+
+    public static class StringExtensions
+    {
+        public static string UrlEncode(this string url)
+        {
+            return HttpUtility.HtmlEncode(url);
+        }
 
     }
 }

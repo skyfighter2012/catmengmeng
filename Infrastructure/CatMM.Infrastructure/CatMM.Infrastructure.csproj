@@ -47,7 +47,9 @@
   <ItemGroup>
     <Compile Include="Caching\ICacheManager.cs" />
     <Compile Include="Caching\MemoryCacheManager.cs" />
+    <Compile Include="Configuration\SiteConfig.cs" />
     <Compile Include="Dependency\ContainerManager.cs" />
+    <Compile Include="Engine\IEngine.cs" />
     <Compile Include="IStartupTask.cs" />
     <Compile Include="TypeFinder\ITypeFinder.cs" />
     <Compile Include="Models\ModuleType.cs" />

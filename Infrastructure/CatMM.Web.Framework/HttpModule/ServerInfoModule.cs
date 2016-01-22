@@ -17,7 +17,6 @@ namespace CatMM.Web.Framework.HttpModule
         /// </summary>
         public void Dispose()
         {
-
         }
 
         /// <summary>
