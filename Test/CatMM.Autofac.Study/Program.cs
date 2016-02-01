@@ -15,19 +15,16 @@ namespace CatMM.Autofac.Study
         {
             DIConfig.Register();
 
-            using (var scope = DIConfig.Container.BeginLifetimeScope())
-            {
-                var writer = scope.Resolve<IDateWriter>();
-                writer.WriteDate();
-            }
+            DateTime now = DateTime.Now;
 
-            string url = @"dd ddd-dd/dda\dddaddd/.ddad";
-            Console.WriteLine(url.UrlEncode());
-
+            string result = now.ToString("d MMMM yyyy");
+            Console.WriteLine(result);
             Console.ReadKey();
         }
 
 
+
+        
 
 
     }

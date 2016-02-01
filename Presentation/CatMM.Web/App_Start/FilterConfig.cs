@@ -1,4 +1,6 @@
-﻿using System.Web;
+﻿using CatMM.Infrastructure.TemplateEngine.Filiters;
+using DotLiquid;
+using System.Web;
 using System.Web.Mvc;
 
 namespace CatMM.Web
@@ -15,6 +17,7 @@ namespace CatMM.Web
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
+            
         }
     }
 }

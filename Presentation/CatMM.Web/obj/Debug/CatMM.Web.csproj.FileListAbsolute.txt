@@ -1,4 +1,3 @@
-D:\Github\catmengmeng\Presentation\CatMM.Web\obj\Debug\CatMM.Web.csprojResolveAssemblyReference.cache
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\SqlServerTypes\x64\msvcr100.dll
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\SqlServerTypes\x64\SqlServerSpatial110.dll
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\SqlServerTypes\x86\msvcr100.dll
@@ -23,6 +22,7 @@ D:\Github\catmengmeng\Presentation\CatMM.Web\bin\Autofac.Integration.Mvc.dll
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\CatMM.Infrastructure.dll
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\CatMM.Shared.dll
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\CatMM.Web.Framework.dll
+D:\Github\catmengmeng\Presentation\CatMM.Web\bin\DotLiquid.dll
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\Microsoft.SqlServer.Types.dll
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\Microsoft.Web.Infrastructure.dll
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\Newtonsoft.Json.dll
@@ -36,7 +36,6 @@ D:\Github\catmengmeng\Presentation\CatMM.Web\bin\System.Web.WebPages.Razor.dll
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\WebGrease.dll
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\WebMarkupMin.Core.dll
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\WebMarkupMin.Web.dll
-D:\Github\catmengmeng\Presentation\CatMM.Web\bin\DotLiquid.dll
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\CatMM.Shared.pdb
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\CatMM.Infrastructure.pdb
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\CatMM.Web.Framework.pdb
@@ -57,5 +56,6 @@ D:\Github\catmengmeng\Presentation\CatMM.Web\bin\zh-Hans\System.Web.Razor.resour
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 D:\Github\catmengmeng\Presentation\CatMM.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\Github\catmengmeng\Presentation\CatMM.Web\obj\Debug\CatMM.Web.csprojResolveAssemblyReference.cache
 D:\Github\catmengmeng\Presentation\CatMM.Web\obj\Debug\CatMM.Web.dll
 D:\Github\catmengmeng\Presentation\CatMM.Web\obj\Debug\CatMM.Web.pdb

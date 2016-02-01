@@ -6,9 +6,9 @@
 	<meta charset="utf-8" />
 </head>
 <body>
-    {{moduleType}}
-{% if ModuleType == 1 %}
-    <h1>{{User.first_name}}dddddd</h1>
-{% endif %}
+    {{Name|Textilize }}
+    {{FirstName|Textilize}}
+    {{Object.FirstName}}
+    {{Object.Age|default:"123"}}
 </body>
 </html>

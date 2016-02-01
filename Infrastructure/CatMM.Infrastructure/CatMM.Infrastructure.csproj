@@ -51,6 +51,7 @@
     <Compile Include="Dependency\ContainerManager.cs" />
     <Compile Include="Engine\IEngine.cs" />
     <Compile Include="IStartupTask.cs" />
+    <Compile Include="TemplateEngine\Filiters\TextFilter.cs" />
     <Compile Include="TypeFinder\ITypeFinder.cs" />
     <Compile Include="Models\ModuleType.cs" />
     <Compile Include="Models\User.cs" />

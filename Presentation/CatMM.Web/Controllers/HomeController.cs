@@ -6,7 +6,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
-using CatMM.Infrastructure.Models;
+using CatMM.Web.Models;
+using DotLiquid;
+using DotLiquid.NamingConventions;
+using CatMM.Infrastructure.TemplateEngine.Filiters;
 
 namespace CatMM.Web.Controllers
 {
@@ -21,15 +24,15 @@ namespace CatMM.Web.Controllers
             return View();
         }
 
-        
+
         public ActionResult TestEngine()
         {
             Random ran = new Random();
             ITemplateEngineProvider provider = new DotLiquidTemplateProvider();
             ITemplateEngine engine = provider.GetTemplateEngine();
             int moduleType = ran.Next(3);
-            ModuleType type = (ModuleType)moduleType;
             string path = Server.MapPath("~/content/email.html");
+            Template.RegisterFilter(typeof(TextFilter));
             string templateText = String.Empty;
             using (StreamReader sr = new StreamReader(path))
             {
@@ -38,20 +41,32 @@ namespace CatMM.Web.Controllers
 
             if (!String.IsNullOrWhiteSpace(templateText))
             {
-                templateText = engine.Render(
-                    templateText,
-                    new
+                //templateText = engine.Render(
+                //    templateText,
+                //    new User
+                //    {
+                //        Age = null,
+                //        FirstName = "Huang",
+                //        Name = "Huangqinglu"
+                //    }
+                //    );
+               // Template.NamingConvention = new CSharpNamingConvention();
+                var template = Template.Parse(templateText);
+                templateText = template.Render(Hash.FromAnonymousObject(new User
+                {
+                    Age = 123,
+                    FirstName = "Huang",
+                    Name = "Huangqinglu",
+                    Object = new SubUser
                     {
-                        ModuleType = type,
-                        User = new User
-                        {
-                            Name = "Huang qing lu",
-                            Age = 20,
-                            FirstName = "Huang"
-                        }
-                    });
+                        Age=null,
+                        FirstName="Qinglu",
+                        Name="Kooboo"
+                    }
+                }));
             }
             return Content(templateText, "text/html");
         }
     }
+
 }
