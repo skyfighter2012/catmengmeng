@@ -24,6 +24,10 @@ namespace CatMM.Web.Controllers
             return View();
         }
 
+        public ActionResult Jquery()
+        {
+            return View();
+        }
 
         public ActionResult TestEngine()
         {
@@ -50,7 +54,7 @@ namespace CatMM.Web.Controllers
                 //        Name = "Huangqinglu"
                 //    }
                 //    );
-               // Template.NamingConvention = new CSharpNamingConvention();
+                // Template.NamingConvention = new CSharpNamingConvention();
                 var template = Template.Parse(templateText);
                 templateText = template.Render(Hash.FromAnonymousObject(new User
                 {
@@ -59,9 +63,9 @@ namespace CatMM.Web.Controllers
                     Name = "Huangqinglu",
                     Object = new SubUser
                     {
-                        Age=null,
-                        FirstName="Qinglu",
-                        Name="Kooboo"
+                        Age = null,
+                        FirstName = "Qinglu",
+                        Name = "Kooboo"
                     }
                 }));
             }

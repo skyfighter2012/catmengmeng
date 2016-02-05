@@ -45,9 +45,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CurrencyFormater.cs" />
     <Compile Include="DateWriter\IDateWriter.cs" />
     <Compile Include="DateWriter\WriteToday.cs" />
     <Compile Include="DIConfig.cs" />
+    <Compile Include="ICurrencyFormater.cs" />
     <Compile Include="Output\ConsoleOutPut.cs" />
     <Compile Include="Output\IOutPut.cs" />
     <Compile Include="Program.cs" />
@@ -56,6 +58,12 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\CatMM.Infrastructure\CatMM.Infrastructure.csproj">
+      <Project>{97abdc94-90f5-411f-8e75-d2e99069fc6e}</Project>
+      <Name>CatMM.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -4,8 +4,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Web;
+using CatMM.Infrastructure.Extensions;
 
 namespace CatMM.Autofac.Study
 {
@@ -17,17 +19,19 @@ namespace CatMM.Autofac.Study
 
             DateTime now = DateTime.Now;
 
-            string result = now.ToString("d MMMM yyyy");
-            Console.WriteLine(result);
+            //string result = now.ToString("d MMMM yyyy");
+            //Console.WriteLine(result);
+
+
+
+            ICurrencyFormater formater = new CurrencyFormater();
+            double value = 123456.123443434;
+
+            Console.WriteLine(value.FormatCurrency(6));
             Console.ReadKey();
         }
-
-
-
-        
-
-
     }
+
 
     public static class StringExtensions
     {

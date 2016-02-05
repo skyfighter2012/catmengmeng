@@ -167,6 +167,7 @@
     <Content Include="Assets\plugins\jquery-1.12.0.min.js" />
     <Content Include="Assets\plugins\pace\pace.min.js" />
     <Content Include="Assets\plugins\pace\pace.css" />
+    <Content Include="Assets\scripts\jqueryTest.js" />
     <Content Include="Assets\scripts\utility.js" />
     <Content Include="content\email.html" />
     <Content Include="favicon.ico" />
@@ -194,6 +195,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
+    <Content Include="Views\Home\Jquery.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -50,6 +50,7 @@
     <Compile Include="Configuration\SiteConfig.cs" />
     <Compile Include="Dependency\ContainerManager.cs" />
     <Compile Include="Engine\IEngine.cs" />
+    <Compile Include="Extensions\NumberExtensions.cs" />
     <Compile Include="IStartupTask.cs" />
     <Compile Include="TemplateEngine\Filiters\TextFilter.cs" />
     <Compile Include="TypeFinder\ITypeFinder.cs" />
