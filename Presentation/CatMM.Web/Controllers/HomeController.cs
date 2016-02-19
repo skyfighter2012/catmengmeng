@@ -71,6 +71,11 @@ namespace CatMM.Web.Controllers
             }
             return Content(templateText, "text/html");
         }
+
+        public ActionResult Scroll()
+        {
+            return View();
+        }
     }
 
 }
