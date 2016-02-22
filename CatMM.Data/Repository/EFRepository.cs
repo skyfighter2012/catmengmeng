@@ -13,5 +13,49 @@ namespace CatMM.Data.Repository
     public class EFRepository<T> : IRepository<T> where T : BaseEntity
     {
 
+        public T GetById(object Id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Insert(T entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Insert(IEnumerable<T> entities)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(T entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(IEnumerable<T> entities)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Delete(T entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Delete(IEnumerable<T> entities)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IQueryable<T> Table
+        {
+            get { throw new NotImplementedException(); }
+        }
+
+        public IQueryable<T> TableNoTracking
+        {
+            get { throw new NotImplementedException(); }
+        }
     }
 }
