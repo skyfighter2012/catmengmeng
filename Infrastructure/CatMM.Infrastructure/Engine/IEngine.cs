@@ -19,7 +19,7 @@ namespace CatMM.Infrastructure.Engine
         /// Initialize components and plugins in the nop environment.
         /// </summary>
         /// <param name="config">Config</param>
-        void Initialize(SiteConfig config);
+        void Initialize(AppConfig config);
 
         /// <summary>
         /// Resolve dependency

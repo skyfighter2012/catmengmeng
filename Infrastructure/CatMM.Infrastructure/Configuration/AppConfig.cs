@@ -8,7 +8,7 @@ using System.Xml;
 
 namespace CatMM.Infrastructure.Configuration
 {
-    public partial class SiteConfig : IConfigurationSectionHandler
+    public partial class AppConfig : IConfigurationSectionHandler
     {
         /// <summary>
         /// Creates a configuration section handler.
@@ -19,7 +19,7 @@ namespace CatMM.Infrastructure.Configuration
         /// <returns>The created section handler object.</returns>
         public object Create(object parent, object configContext, XmlNode section)
         {
-            var config = new SiteConfig();
+            var config = new AppConfig();
             var dynamicDiscoveryNode = section.SelectSingleNode("DynamicDiscovery");
             if (dynamicDiscoveryNode != null && dynamicDiscoveryNode.Attributes != null)
             {
