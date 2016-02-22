@@ -15,8 +15,6 @@ namespace CatMM.Infrastructure.Engine
         private ContainerManager _containerManager;
 
         
-
-
         public Dependency.ContainerManager ContainerManager
         {
             get { throw new NotImplementedException(); }
