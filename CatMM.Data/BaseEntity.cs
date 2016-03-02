@@ -26,16 +26,30 @@ namespace CatMM.Data
             return Equals(obj as BaseEntity);
         }
 
+        /// <summary>
+        /// Is transient
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
         private static bool IsTransient(BaseEntity obj)
         {
             return obj != null && Equals(obj.Id, default(int));
         }
 
+        /// <summary>
+        /// Get unproxied type 
+        /// </summary>
+        /// <returns></returns>
         private Type GetUnproxiedType()
         {
             return GetType();
         }
 
+        /// <summary>
+        /// Equals
+        /// </summary>
+        /// <param name="other"></param>
+        /// <returns></returns>
         public virtual bool Equals(BaseEntity other)
         {
             if (other == null)
@@ -57,6 +71,10 @@ namespace CatMM.Data
             return false;
         }
 
+        /// <summary>
+        /// Get hash code
+        /// </summary>
+        /// <returns></returns>
         public override int GetHashCode()
         {
             if (Equals(Id, default(int)))
@@ -64,11 +82,23 @@ namespace CatMM.Data
             return Id.GetHashCode();
         }
 
+        /// <summary>
+        /// Operator ==
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
         public static bool operator ==(BaseEntity x, BaseEntity y)
         {
             return Equals(x, y);
         }
 
+        /// <summary>
+        /// Operator !=
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
         public static bool operator !=(BaseEntity x, BaseEntity y)
         {
             return !(x == y);
