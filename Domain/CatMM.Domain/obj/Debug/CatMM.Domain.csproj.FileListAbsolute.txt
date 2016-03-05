@@ -1,7 +1,0 @@
-D:\Github\catmengmeng\Domain\CatMM.Domain\bin\Debug\CatMM.Domain.dll
-D:\Github\catmengmeng\Domain\CatMM.Domain\bin\Debug\CatMM.Domain.pdb
-D:\Github\catmengmeng\Domain\CatMM.Domain\bin\Debug\CatMM.Shared.dll
-D:\Github\catmengmeng\Domain\CatMM.Domain\bin\Debug\CatMM.Shared.pdb
-D:\Github\catmengmeng\Domain\CatMM.Domain\obj\Debug\CatMM.Domain.csprojResolveAssemblyReference.cache
-D:\Github\catmengmeng\Domain\CatMM.Domain\obj\Debug\CatMM.Domain.dll
-D:\Github\catmengmeng\Domain\CatMM.Domain\obj\Debug\CatMM.Domain.pdb
