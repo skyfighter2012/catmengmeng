@@ -6,6 +6,5 @@ D:\Github\catmengmeng\Infrastructure\CatMM.Web.Framework\bin\Debug\StyleCop.dll
 D:\Github\catmengmeng\Infrastructure\CatMM.Web.Framework\bin\Debug\Autofac.xml
 D:\Github\catmengmeng\Infrastructure\CatMM.Web.Framework\obj\Debug\CatMM.Web.Framework.dll
 D:\Github\catmengmeng\Infrastructure\CatMM.Web.Framework\obj\Debug\CatMM.Web.Framework.pdb
-D:\Github\catmengmeng\Infrastructure\CatMM.Web.Framework\obj\Debug\CatMM.Web.Framework.csprojResolveAssemblyReference.cache
 D:\Github\CatMengMeng\Infrastructure\CatMM.Web.Framework\bin\Debug\Microsoft.Build.Utilities.v3.5.dll
 D:\Github\CatMengMeng\Infrastructure\CatMM.Web.Framework\bin\Debug\zh-CHS\Microsoft.Build.Utilities.v3.5.resources.dll

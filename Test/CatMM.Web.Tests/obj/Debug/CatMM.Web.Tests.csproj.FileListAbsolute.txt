@@ -69,6 +69,5 @@ D:\Github\catmengmeng\Test\CatMM.Web.Tests\bin\zh-Hans\Microsoft.Owin.Security.F
 D:\Github\catmengmeng\Test\CatMM.Web.Tests\bin\zh-Hans\Microsoft.Owin.Security.Google.resources.dll
 D:\Github\catmengmeng\Test\CatMM.Web.Tests\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
 D:\Github\catmengmeng\Test\CatMM.Web.Tests\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
-D:\Github\catmengmeng\Test\CatMM.Web.Tests\obj\Debug\CatMM.Web.Tests.csprojResolveAssemblyReference.cache
 D:\Github\catmengmeng\Test\CatMM.Web.Tests\obj\Debug\CatMM.Web.Tests.dll
 D:\Github\catmengmeng\Test\CatMM.Web.Tests\obj\Debug\CatMM.Web.Tests.pdb

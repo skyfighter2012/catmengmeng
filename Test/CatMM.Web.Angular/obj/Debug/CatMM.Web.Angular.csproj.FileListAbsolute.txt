@@ -36,4 +36,3 @@ D:\Github\catmengmeng\Test\CatMM.Web.Angular\bin\System.Web.WebPages.Deployment.
 D:\Github\catmengmeng\Test\CatMM.Web.Angular\bin\System.Web.WebPages.Razor.xml
 D:\Github\catmengmeng\Test\CatMM.Web.Angular\obj\Debug\App.CatMM.Web.Angular.dll
 D:\Github\catmengmeng\Test\CatMM.Web.Angular\obj\Debug\App.CatMM.Web.Angular.pdb
-D:\Github\catmengmeng\Test\CatMM.Web.Angular\obj\Debug\CatMM.Web.Angular.csprojResolveAssemblyReference.cache
