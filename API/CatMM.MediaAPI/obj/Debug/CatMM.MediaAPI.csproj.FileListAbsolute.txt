@@ -101,6 +101,7 @@ D:\Github\catmengmeng\API\CatMM.MediaAPI\bin\zh-Hans\Microsoft.Owin.Security.Goo
 D:\Github\catmengmeng\API\CatMM.MediaAPI\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
 D:\Github\catmengmeng\API\CatMM.MediaAPI\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
 D:\Github\catmengmeng\API\CatMM.MediaAPI\bin\zh-Hans\System.Web.Http.Owin.resources.dll
-D:\Github\catmengmeng\API\CatMM.MediaAPI\obj\Debug\CatMM.MediaAPI.csprojResolveAssemblyReference.cache
 D:\Github\catmengmeng\API\CatMM.MediaAPI\obj\Debug\CatMM.MediaAPI.dll
 D:\Github\catmengmeng\API\CatMM.MediaAPI\obj\Debug\CatMM.MediaAPI.pdb
+D:\Github\CatMengMeng\API\CatMM.MediaAPI\bin\Microsoft.Build.Utilities.v3.5.dll
+D:\Github\CatMengMeng\API\CatMM.MediaAPI\bin\zh-CHS\Microsoft.Build.Utilities.v3.5.resources.dll

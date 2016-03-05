@@ -92,4 +92,3 @@ D:\Github\CatMengMeng\API\CatMM.WebAPI\bin\Autofac.dll
 D:\Github\CatMengMeng\API\CatMM.WebAPI\bin\Autofac.Integration.WebApi.dll
 D:\Github\CatMengMeng\API\CatMM.WebAPI\bin\Autofac.xml
 D:\Github\CatMengMeng\API\CatMM.WebAPI\bin\Autofac.Integration.WebApi.xml
-D:\Github\CatMengMeng\API\CatMM.WebAPI\obj\Debug\CatMM.WebAPI.csprojResolveAssemblyReference.cache
