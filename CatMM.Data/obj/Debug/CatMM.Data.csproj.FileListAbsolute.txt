@@ -1,0 +1,12 @@
+D:\Github\catmengmeng\CatMM.Data\bin\Debug\CatMM.Data.dll.config
+D:\Github\catmengmeng\CatMM.Data\bin\Debug\CatMM.Data.dll
+D:\Github\catmengmeng\CatMM.Data\bin\Debug\CatMM.Data.pdb
+D:\Github\catmengmeng\CatMM.Data\bin\Debug\EntityFramework.dll
+D:\Github\catmengmeng\CatMM.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Github\catmengmeng\CatMM.Data\bin\Debug\EntityFramework.xml
+D:\Github\catmengmeng\CatMM.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Github\catmengmeng\CatMM.Data\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\Github\catmengmeng\CatMM.Data\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\Github\catmengmeng\CatMM.Data\obj\Debug\CatMM.Data.csprojResolveAssemblyReference.cache
+D:\Github\catmengmeng\CatMM.Data\obj\Debug\CatMM.Data.dll
+D:\Github\catmengmeng\CatMM.Data\obj\Debug\CatMM.Data.pdb

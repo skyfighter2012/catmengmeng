@@ -1,0 +1,4 @@
+D:\Github\catmengmeng\CatMM.Services\bin\Debug\CatMM.Services.dll
+D:\Github\catmengmeng\CatMM.Services\bin\Debug\CatMM.Services.pdb
+D:\Github\catmengmeng\CatMM.Services\obj\Debug\CatMM.Services.dll
+D:\Github\catmengmeng\CatMM.Services\obj\Debug\CatMM.Services.pdb
