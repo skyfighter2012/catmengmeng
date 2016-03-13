@@ -19,3 +19,6 @@ D:\Github\catmengmeng\Test\CatMM.Autofac.Study\bin\Debug\System.Web.WebPages.Dep
 D:\Github\catmengmeng\Test\CatMM.Autofac.Study\obj\Debug\CatMM.Autofac.Study.csprojResolveAssemblyReference.cache
 D:\Github\catmengmeng\Test\CatMM.Autofac.Study\obj\Debug\CatMM.Autofac.Study.exe
 D:\Github\catmengmeng\Test\CatMM.Autofac.Study\obj\Debug\CatMM.Autofac.Study.pdb
+D:\Github\CatMengMeng\Test\CatMM.Autofac.Study\bin\Debug\System.Web.Mvc.dll
+D:\Github\CatMengMeng\Test\CatMM.Autofac.Study\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Github\CatMengMeng\Test\CatMM.Autofac.Study\bin\Debug\System.Web.Mvc.xml
