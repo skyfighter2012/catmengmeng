@@ -130,6 +130,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CssController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Filter\MyActionFilter.cs" />
     <Compile Include="Global.asax.cs">
@@ -156,6 +157,8 @@
       <Link>SqlServerTypes\x86\SqlServerSpatial110.dll</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\css\doc.css" />
+    <Content Include="Assets\css\text.css" />
     <Content Include="Assets\plugins\bootstrap\css\bootstrap-theme.css" />
     <Content Include="Assets\plugins\bootstrap\css\bootstrap-theme.min.css" />
     <Content Include="Assets\plugins\bootstrap\css\bootstrap.css" />
@@ -167,6 +170,7 @@
     <Content Include="Assets\plugins\jquery-1.12.0.min.js" />
     <Content Include="Assets\plugins\pace\pace.min.js" />
     <Content Include="Assets\plugins\pace\pace.css" />
+    <Content Include="Assets\scripts\doc.js" />
     <Content Include="Assets\scripts\jqueryTest.js" />
     <Content Include="Assets\scripts\utility.js" />
     <Content Include="content\email.html" />
@@ -197,10 +201,12 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Home\Jquery.cshtml" />
     <Content Include="Views\Home\Scroll.cshtml" />
+    <Content Include="Views\Widget\Navigation.cshtml" />
+    <Content Include="Views\Css\Index.cshtml" />
+    <Content Include="Views\Css\Text.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Assets\css\" />
     <Folder Include="Assets\images\" />
     <Folder Include="Assets\plugins\modernizr\" />
   </ItemGroup>
