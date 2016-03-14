@@ -132,6 +132,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CssController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\JsPluginController.cs" />
     <Compile Include="Filter\MyActionFilter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -167,10 +168,12 @@
     <Content Include="Assets\plugins\bootstrap\js\bootstrap.js" />
     <Content Include="Assets\plugins\bootstrap\js\bootstrap.min.js" />
     <Content Include="Assets\plugins\bootstrap\js\npm.js" />
+    <Content Include="Assets\plugins\fitimage\jquery.fitimage.css" />
     <Content Include="Assets\plugins\jquery-1.12.0.min.js" />
     <Content Include="Assets\plugins\pace\pace.min.js" />
     <Content Include="Assets\plugins\pace\pace.css" />
     <Content Include="Assets\scripts\doc.js" />
+    <Content Include="Assets\scripts\fitimage.js" />
     <Content Include="Assets\scripts\jqueryTest.js" />
     <Content Include="Assets\scripts\utility.js" />
     <Content Include="content\email.html" />
@@ -183,8 +186,8 @@
     <Content Include="Assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Assets\plugins\fitimage\jquery.fitimage.js" />
     <None Include="Scripts\_references.js" />
-    <Content Include="Scripts\utility.js" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -204,6 +207,7 @@
     <Content Include="Views\Widget\Navigation.cshtml" />
     <Content Include="Views\Css\Index.cshtml" />
     <Content Include="Views\Css\Text.cshtml" />
+    <Content Include="Views\JsPlugin\FitImage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

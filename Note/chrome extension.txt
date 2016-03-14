@@ -1,0 +1,8 @@
+1 manifest.json 
+name,description,version,permissions
+
+2 icon -->size:19px*19px  extension:.png
+
+	3743 KE
+
+	3584 BK

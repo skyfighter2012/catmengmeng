@@ -1,0 +1,68 @@
+﻿@{
+    ViewBag.Title = "FitImage";
+}
+@section UsingCss{
+    <link href="/assets/plugins/fitimage/jquery.fitimage.css" type="text/css" rel="stylesheet" />
+}
+
+@section UsingScript{
+    <script src="/assets/plugins/fitimage/jquery.fitimage.js" type="text/javascript"></script>
+    <script src="/assets/scripts/fitimage.js" type="text/javascript"></script>
+}
+<div class="container">
+    <h1>Fit image</h1>
+    <div class="row">
+        <div class="col-md-3">
+            <form class="form">
+                <h2>Wrap size</h2>
+                <div class="form-group">
+                    <label class="control-label">
+                        Wrap Width
+                    </label>
+                    <input type="number" class="form-control" id="txt-width" name="width" value="855" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">
+                        Wrap Height
+                    </label>
+                    <input type="number" class="form-control" id="txt-height" name="height" value="570" />
+
+                </div>
+                <div class="form-actions">
+                    <button class="btn btn-sm btn-primary" type="button" id="btn-resetwrap">Reflash</button>
+                </div>
+            </form>
+            <form class="form">
+                <h2>Image size</h2>
+                <div class="form-group">
+                    <label class="control-label">
+                        Image url
+                    </label>
+                    <input type="text" class="form-control" id="txt-url" name="width" value="http://dev-media-api.realnext.nl/image-resizing/realestateobjects/159614/1.jpg" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">
+                        Width
+                    </label>
+                    <input type="number" class="form-control" id="txt-img-width" name="width" value="855" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">
+                        Height
+                    </label>
+                    <input type="number" class="form-control" id="txt-img-height" name="height" value="570" />
+                </div>
+                <div class="form-actions">
+                    <button class="btn btn-sm btn-primary" type="button" id="btn-reloadimg">Reload iamge</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-9">
+            <div class="my-content">
+                <div class="fit-container">
+                    <img class="fit-image" id="img" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

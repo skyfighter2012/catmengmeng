@@ -18,7 +18,6 @@ namespace CatMM.Web
                 new StyleBundle("~/css/core").Include(
                 "~/assets/plugins/pace/pace.css",
                 "~/assets/plugins/bootstrap/css/bootstrap.css",
-                "~/assets/css/doc.css",
                 "~/assets/css/text.css"
                 ));
 
@@ -27,8 +26,7 @@ namespace CatMM.Web
                 "~/assets/scripts/utility.js",
                 "~/assets/plugins/pace/pace.min.js",
                 "~/assets/plugins/jquery-1.12.0.min.js",
-                "~/assets/plugins/bootstrap/js/bootstrap.js",
-                "~/assets/scripts/doc.js"
+                "~/assets/plugins/bootstrap/js/bootstrap.js"
                 ));
         }
     }

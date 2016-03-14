@@ -1,0 +1,24 @@
+﻿.my-content *{
+    box-sizing:content-box !important;
+}
+
+.my-content{
+    margin-top:30px;
+}
+
+.fit-container{
+    border:1px solid #000;
+    overflow:hidden;
+}
+
+.fit-container img{
+    position:relative;
+    left:0;
+    top:0;
+    transition:all 2s ease-in-out 0;
+    opacity:0;
+}
+
+.fit-container img.fit-complete{
+    opacity:1;
+}

@@ -6,4 +6,5 @@
 /// <reference path="../assets/scripts/doc.js" />
 /// <reference path="../assets/scripts/jquerytest.js" />
 /// <reference path="../assets/scripts/utility.js" />
-/// <reference path="utility.js" />
+/// <reference path="../assets/plugins/fitimage/jquery.fitimage.js" />
+/// <reference path="../assets/scripts/fitimage.js" />

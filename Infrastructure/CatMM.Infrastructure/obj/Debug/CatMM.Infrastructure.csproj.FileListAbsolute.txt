@@ -19,6 +19,5 @@ D:\Github\catmengmeng\Infrastructure\CatMM.Infrastructure\bin\Debug\System.Web.R
 D:\Github\catmengmeng\Infrastructure\CatMM.Infrastructure\bin\Debug\System.Web.WebPages.xml
 D:\Github\catmengmeng\Infrastructure\CatMM.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.xml
 D:\Github\catmengmeng\Infrastructure\CatMM.Infrastructure\bin\Debug\System.Web.WebPages.Razor.xml
-D:\Github\catmengmeng\Infrastructure\CatMM.Infrastructure\obj\Debug\CatMM.Infrastructure.csprojResolveAssemblyReference.cache
 D:\Github\catmengmeng\Infrastructure\CatMM.Infrastructure\obj\Debug\CatMM.Infrastructure.dll
 D:\Github\catmengmeng\Infrastructure\CatMM.Infrastructure\obj\Debug\CatMM.Infrastructure.pdb
