@@ -43,6 +43,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatMM.Services", "CatMM.Ser
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatMM.Infrastructure.Domain.Presistence.NHibernate", "Infrastructure\CatMM.Infrastructure.Domain.Presistence.NHibernate\CatMM.Infrastructure.Domain.Presistence.NHibernate.csproj", "{2CE05C3C-50B7-4AE3-876E-2D5C15FD99FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatMM.Domain.Mapping.NHibernate", "Domain\CatMM.Domain.Mapping.NHibernate\CatMM.Domain.Mapping.NHibernate.csproj", "{3E0FC01C-AB2F-45ED-92A9-D812F487347F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatMM.NHibernate.Test", "Test\CatMM.NHibernate.Test\CatMM.NHibernate.Test.csproj", "{6CCE4BD3-F061-4D82-89AB-3097DCB9C74B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatMM.Domain.Repository.NH", "Domain\CatMM.Domain.Repository\CatMM.Domain.Repository.NH.csproj", "{E3803D7D-723C-4351-A934-59055CFC9B73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +111,18 @@ Global
 		{2CE05C3C-50B7-4AE3-876E-2D5C15FD99FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CE05C3C-50B7-4AE3-876E-2D5C15FD99FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CE05C3C-50B7-4AE3-876E-2D5C15FD99FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E0FC01C-AB2F-45ED-92A9-D812F487347F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E0FC01C-AB2F-45ED-92A9-D812F487347F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E0FC01C-AB2F-45ED-92A9-D812F487347F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E0FC01C-AB2F-45ED-92A9-D812F487347F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CCE4BD3-F061-4D82-89AB-3097DCB9C74B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CCE4BD3-F061-4D82-89AB-3097DCB9C74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CCE4BD3-F061-4D82-89AB-3097DCB9C74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CCE4BD3-F061-4D82-89AB-3097DCB9C74B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3803D7D-723C-4351-A934-59055CFC9B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3803D7D-723C-4351-A934-59055CFC9B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3803D7D-723C-4351-A934-59055CFC9B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3803D7D-723C-4351-A934-59055CFC9B73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -124,5 +142,8 @@ Global
 		{1AEC7AD7-0F0C-4394-9F4A-078320C45BAF} = {762FA3DA-E74F-4D9C-A2D1-07A5F8FBABA5}
 		{EB4C729A-C441-4E9D-99EF-C4C2A753BFF1} = {A4568EA4-94F4-4578-B6E2-968D4A1236ED}
 		{2CE05C3C-50B7-4AE3-876E-2D5C15FD99FC} = {762FA3DA-E74F-4D9C-A2D1-07A5F8FBABA5}
+		{3E0FC01C-AB2F-45ED-92A9-D812F487347F} = {A4568EA4-94F4-4578-B6E2-968D4A1236ED}
+		{6CCE4BD3-F061-4D82-89AB-3097DCB9C74B} = {1DE98E32-2E54-4F34-A25E-5FD1B0114427}
+		{E3803D7D-723C-4351-A934-59055CFC9B73} = {A4568EA4-94F4-4578-B6E2-968D4A1236ED}
 	EndGlobalSection
 EndGlobal

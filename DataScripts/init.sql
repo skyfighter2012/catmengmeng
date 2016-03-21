@@ -3,8 +3,12 @@ GO
 USE [NHibernateSimple]
 GO
 
+DROP TABLE [OrderProduct]
+DROP TABLE [Order]
+DROP TABLE [Product]
+DROP TABLE [Customer]
 CREATE TABLE Customer(
-	Id VARCHAR(32) NOT NULL,
+	Id VARCHAR(64) NOT NULL,
 	FirstName NVARCHAR(32),
 	LastName NVARCHAR(32),
 	Version VARCHAR(32),
@@ -12,7 +16,7 @@ CREATE TABLE Customer(
 )
 
 CREATE TABLE Product(
-	Id VARCHAR(32) NOT NULL,
+	Id VARCHAR(64) NOT NULL,
 	Name NVARCHAR(128) NOT NULL,
 	Version VARCHAR(32),
 	Price DECIMAL NOT NULL DEFAULT(0.00),
@@ -20,16 +24,18 @@ CREATE TABLE Product(
 )
 
 CREATE TABLE [Order](
-	Id VARCHAR(32) NOT NULL,
+	Id VARCHAR(64) NOT NULL,
 	UtcCreatedOn DATETIME,
-	CustomerId VARCHAR(32) NOT NULL,
+	CustomerId VARCHAR(64) NOT NULL,
 	PRIMARY KEY (Id),
 	FOREIGN KEY (CustomerId) REFERENCES Customer(Id)
 )
 
 CREATE TABLE [OrderProduct]
 (
-	OrderId VARCHAR(32) NOT NULL,
-	ProductId VARCHAR(32) NOT NULL
+	OrderId VARCHAR(64) NOT NULL,
+	ProductId VARCHAR(64) NOT NULL,
+	FOREIGN KEY (OrderId) REFERENCES [Order](Id),
+	FOREIGN KEY (ProductId) REFERENCES [Product](Id)
 )
 
