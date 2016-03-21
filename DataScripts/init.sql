@@ -1,0 +1,35 @@
+CREATE DATABASE [NHibernateSimple]
+GO
+USE [NHibernateSimple]
+GO
+
+CREATE TABLE Customer(
+	Id VARCHAR(32) NOT NULL,
+	FirstName NVARCHAR(32),
+	LastName NVARCHAR(32),
+	Version VARCHAR(32),
+	PRIMARY KEY (Id)
+)
+
+CREATE TABLE Product(
+	Id VARCHAR(32) NOT NULL,
+	Name NVARCHAR(128) NOT NULL,
+	Version VARCHAR(32),
+	Price DECIMAL NOT NULL DEFAULT(0.00),
+	PRIMARY KEY (Id)
+)
+
+CREATE TABLE [Order](
+	Id VARCHAR(32) NOT NULL,
+	UtcCreatedOn DATETIME,
+	CustomerId VARCHAR(32) NOT NULL,
+	PRIMARY KEY (Id),
+	FOREIGN KEY (CustomerId) REFERENCES Customer(Id)
+)
+
+CREATE TABLE [OrderProduct]
+(
+	OrderId VARCHAR(32) NOT NULL,
+	ProductId VARCHAR(32) NOT NULL
+)
+

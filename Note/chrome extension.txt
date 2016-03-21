@@ -3,6 +3,40 @@ name,description,version,permissions
 
 2 icon -->size:19px*19px  extension:.png
 
-	3743 KE
 
-	3584 BK
+结构：
+Many extensions have a background page, an invisible page that holds the main logic of the extension
+
+background page
+	a.persistent background pages
+	b.event pages. 
+Background pages defined by background.html
+
+
+
+
+ui page:
+a.options page -- which lets users customize how the extension works
+
+b.override page
+
+The HTML pages inside an extension have complete access to each other's DOMs, and they can invoke functions on each other.
+
+
+content script:(GREAT)
+If an extension needs to interact with web pages that the user loads (as opposed to pages that are included in the extension), then the extension must use a content script.
+
+If your extension needs to interact with web pages, then it needs a content script. A content script is some JavaScript that executes in the context of a page that's been loaded into the browser
+
+Think of a content script as part of that loaded page
+
+Content scripts can read details of the web pages the browser visits, and they can make changes to the pages
+
+
+Chrome api:
+Most methods in the chrome.* APIs are asynchronous,
+
+Synchronous methods never have a callback because they don't return until they've completed all their work
+
+
+Communication between pages:

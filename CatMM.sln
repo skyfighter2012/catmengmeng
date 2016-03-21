@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatMM.Data", "CatMM.Data\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatMM.Services", "CatMM.Services\CatMM.Services.csproj", "{EB4C729A-C441-4E9D-99EF-C4C2A753BFF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatMM.Infrastructure.Domain.Presistence.NHibernate", "Infrastructure\CatMM.Infrastructure.Domain.Presistence.NHibernate\CatMM.Infrastructure.Domain.Presistence.NHibernate.csproj", "{2CE05C3C-50B7-4AE3-876E-2D5C15FD99FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{EB4C729A-C441-4E9D-99EF-C4C2A753BFF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB4C729A-C441-4E9D-99EF-C4C2A753BFF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB4C729A-C441-4E9D-99EF-C4C2A753BFF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CE05C3C-50B7-4AE3-876E-2D5C15FD99FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE05C3C-50B7-4AE3-876E-2D5C15FD99FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CE05C3C-50B7-4AE3-876E-2D5C15FD99FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE05C3C-50B7-4AE3-876E-2D5C15FD99FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -117,5 +123,6 @@ Global
 		{05D2052E-ABEB-4638-8071-8CBB02827FDD} = {A4568EA4-94F4-4578-B6E2-968D4A1236ED}
 		{1AEC7AD7-0F0C-4394-9F4A-078320C45BAF} = {762FA3DA-E74F-4D9C-A2D1-07A5F8FBABA5}
 		{EB4C729A-C441-4E9D-99EF-C4C2A753BFF1} = {A4568EA4-94F4-4578-B6E2-968D4A1236ED}
+		{2CE05C3C-50B7-4AE3-876E-2D5C15FD99FC} = {762FA3DA-E74F-4D9C-A2D1-07A5F8FBABA5}
 	EndGlobalSection
 EndGlobal

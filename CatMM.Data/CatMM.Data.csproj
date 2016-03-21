@@ -46,12 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseEntity.cs" />
     <Compile Include="Context\BaseDbContext.cs" />
     <Compile Include="Context\IDbContext.cs" />
     <Compile Include="Mapping\BaseEntityTypeConfiguration.cs" />
-    <Compile Include="Repository\EFRepository.cs" />
-    <Compile Include="Repository\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
