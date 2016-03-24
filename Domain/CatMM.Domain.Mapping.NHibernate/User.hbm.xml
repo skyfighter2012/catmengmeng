@@ -5,4 +5,13 @@
     <property name="FirstName" />
     <property name="LastName" />
   </class>
+  <class name="Student">
+    <id name="Id" column="Id" />
+    <property name="Name" />
+    <many-to-one name="Class" column="Id" />
+  </class>
+  <class name="Class">
+    <id name="Id" column="Id" />
+    <property name="Name" />
+  </class>
 </hibernate-mapping>

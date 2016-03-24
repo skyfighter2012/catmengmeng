@@ -43,7 +43,9 @@
     <Compile Include="Trade\Order.cs" />
     <Compile Include="Trade\OrderProduct.cs" />
     <Compile Include="Trade\Product.cs" />
+    <Compile Include="User\Class.cs" />
     <Compile Include="User\Customer.cs" />
+    <Compile Include="User\Student.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Globals\CatMM.Shared\CatMM.Shared.csproj">

@@ -8,6 +8,9 @@ using System.IO;
 using CatMM.Domain.User;
 using HibernatingRhinos.Profiler.Appender.NHibernate;
 using System.Collections.Generic;
+using System.Linq;
+using NHibernate.Linq;
+using NHibernate.Criterion;
 
 namespace CatMM.NHibernate.Test
 {
@@ -20,8 +23,6 @@ namespace CatMM.NHibernate.Test
             {
                 if (Singleton<ISessionFactory>.Instance == null)
                 {
-
-                    string cfgPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "hibernate.cfg.xml");
                     Singleton<ISessionFactory>.Instance = (new Configuration()).Configure().BuildSessionFactory();
                     NHibernateProfiler.Initialize();
                 }
@@ -44,28 +45,33 @@ namespace CatMM.NHibernate.Test
         }
 
         [TestMethod]
-        public void TestMethod1()
+        public void Test()
         {
-            CustomerRepository repository = new CustomerRepository(Session);
-            List<Customer> customers = new List<Customer>();
-            for (int i = 0; i < 1000; i++)
-            {
-                customers.Add(new Customer
-                {
-                    FirstName = String.Format("huang_{0}", i),
-                    LastName = string.Format("qing_{0}", i)
-                });
-            }
-            repository.Insert(customers);
-            Session.Flush();
-        }
-        
-        [TestMethod]
-        public void Query()
-        {
-            CustomerRepository repository = new CustomerRepository(Session);
-            
+            //ICriteria crt = Session.CreateCriteria<Customer>();
+            //crt.SetProjection(Projections.Property<Customer>(it => it.FirstName));
+            //crt.AddOrder(Order.Desc("FirstName"));
+            //var list = crt.List<string>();
+            //list.ToList().ForEach(it =>
+            //{
+            //    Console.WriteLine(it);
+            //});
+            var cls = new Class { Name = "1班" };
 
+            var liu = new Student { Name = "刘冬", Class = cls };
+            var zhang = new Student { Name = "test", Class = cls };
+
+            ITransaction tran = Session.BeginTransaction();
+            try
+            {
+                Session.Save(liu);
+                Session.Save(zhang);
+                tran.Commit();
+            }
+            catch (Exception ex)
+            {
+                tran.Rollback();
+                throw ex;
+            }
         }
     }
 }
