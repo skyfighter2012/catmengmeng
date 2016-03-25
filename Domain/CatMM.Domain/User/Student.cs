@@ -11,8 +11,8 @@ namespace CatMM.Domain.User
     {
         public virtual string Name { get; set; }
 
-        public virtual Class Class { get; set; }
+        public virtual Family Family { get; set; }
 
-        public virtual string ClassId { get; set; }
+        public virtual Class Class { get; set; }
     }
 }

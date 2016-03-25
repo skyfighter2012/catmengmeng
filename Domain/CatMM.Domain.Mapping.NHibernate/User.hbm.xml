@@ -1,17 +1,68 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CatMM.Domain" namespace="CatMM.Domain.User">
-  <class name="Customer">
-    <id name="Id" column="Id" />
-    <property name="FirstName" />
-    <property name="LastName" />
-  </class>
-  <class name="Student">
-    <id name="Id" column="Id" />
-    <property name="Name" />
-    <many-to-one name="Class" column="Id" />
+  <class name="Teacher">
+    <id name="Id" column="Id">
+      <generator class="assigned" />
+    </id>
+    <property name="Name" column="Name" />
+    <one-to-one name="Class" class="Class" property-ref="Teacher" />
   </class>
   <class name="Class">
-    <id name="Id" column="Id" />
+    <id name="Id" column="Id">
+      <generator class="assigned" />
+    </id>
     <property name="Name" />
+    <many-to-one name="Teacher" class="Teacher" column="TeacherId" unique="true" cascade="all" />
+    <bag name="Students" inverse="true" cascade="all" lazy="false">
+      <key column="ClassId" not-null="true" />
+      <one-to-many class="Student" />
+    </bag>
+  </class>
+  <class name="Student" table="Student" >
+    <id name="Id" column="Id">
+      <generator class="assigned" />
+    </id>
+    <property name="Name" column="Name" />
+    <many-to-one name="Class" column="ClassId" not-null="true"/>
+  </class>
+
+  <class name="Customer" table="Customer">
+    <id name="Id" column="Id">
+      <generator class="assigned" />
+    </id>
+    <bag name="CustomerRoles" cascade="all">
+      <key column="CustomerId" />
+      <one-to-many class="CustomerRole" />
+    </bag>
+  </class>
+
+  <class name="Role" table="Role" >
+    <id name="Id" column="Id">
+      <generator class="assigned" />
+    </id>
+    <property name="Name" column="Name" />
+    <bag name="CustomerRoles" >
+      <key column="RoleId" />
+      <one-to-many class="CustomerRole" />
+    </bag>
+  </class>
+
+  <class name="CustomerRole" table="CustomerRole">
+    <composite-id>
+      <key-many-to-one name="Customer" column="CustomerId" />
+      <key-many-to-one name="Role" column="RoleId" />
+    </composite-id>
+    <property name="IsActive" type="boolean" />
+  </class>
+
+  <class name="Product" table="Product">
+    <id name="Id" column="Id">
+      <generator class="assigned" />
+    </id>
+    <component name="Name" class="Name" >
+      <property name="FirstName" column="FirstName" />
+      <property name="MiddleName" column="MiddleName" />
+      <property name="LastName" column="LastName" />
+    </component>
   </class>
 </hibernate-mapping>

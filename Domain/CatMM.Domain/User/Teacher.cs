@@ -5,11 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CatMM.Domain.Trade
+namespace CatMM.Domain.User
 {
-    public partial class Product : BaseEntity
+    public class Teacher : BaseEntity
     {
         public virtual string Name { get; set; }
-        public virtual decimal Price { get; set; }
+
+        public virtual Class Class { get; set; }
     }
 }

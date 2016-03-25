@@ -4086,9 +4086,6 @@
   <project key="1100740584">
     <configuration>DEBUG;TRACE</configuration>
   </project>
-  <project key="1028039496">
-    <configuration>DEBUG;TRACE</configuration>
-  </project>
   <sourcecode name="BundleConfig.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015/12/15 09:55:32.437</styleCop>
@@ -4434,4 +4431,7 @@
     </timestamps>
     <violations />
   </sourcecode>
+  <project key="1028039496">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
 </stylecopresultscache>

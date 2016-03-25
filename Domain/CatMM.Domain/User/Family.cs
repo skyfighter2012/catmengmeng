@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 
 namespace CatMM.Domain.User
 {
-    public class Customer : BaseEntity
+    public class Family : BaseEntity
     {
-        public virtual IList<CustomerRole> CustomerRoles { get; set; }
+        public virtual string Address { get; set; }
+
+        public virtual Student Student { get; set; }
     }
 }
