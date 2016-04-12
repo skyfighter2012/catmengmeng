@@ -53,19 +53,31 @@ namespace CatMM.Web.Controllers
                 //        Name = "Huangqinglu"
                 //    }
                 //    );
-                // Template.NamingConvention = new CSharpNamingConvention();
+                Template.NamingConvention = new CSharpNamingConvention();
                 var template = Template.Parse(templateText);
-                templateText = template.Render(Hash.FromAnonymousObject(new User
+                List<User> list = new List<User>();
+
+                for (int i = 0; i < 10; i++)
                 {
-                    Age = 123,
-                    FirstName = "Huang",
-                    Name = "Huangqinglu",
-                    Object = new SubUser
+                    var user = new User
                     {
-                        Age = null,
-                        FirstName = "Qinglu",
-                        Name = "Kooboo"
-                    }
+                        FirstName = "huang_" + i,
+                        Name = "qinglu_" + i,
+                        Age = 20 + i,
+                        CreateDate = DateTime.UtcNow,
+                        UtcCreatedOn=DateTime.UtcNow.ToString(),
+                        Object = new SubUser
+                        {
+                            Age = 20 + i,
+                            Name = "test_" + i,
+                            FirstName = "firname_" + i
+                        }
+                    };
+                    list.Add(user);
+                }
+                templateText = template.Render(Hash.FromAnonymousObject(new
+                {
+                    Objects = list
                 }));
             }
             return Content(templateText, "text/html");

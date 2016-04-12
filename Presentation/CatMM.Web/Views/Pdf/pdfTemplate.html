@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>pdf template</title>
+    <meta charset="utf-8" />
+    <link href="http://local.catmm.com/assets/css/pdftemplate.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <h1>Generate title</h1>
+    <div>
+        <h2>Images from net</h2>
+        <img src="http://local.catmm.com/content/images/tulips.jpg" style="width:50%;margin:0;padding:0;"/>
+    </div>
+    <p id="tip"></p>
+    <script>
+        window.onload = function () {
+            document.getElementById("tip").innerText = (new Date()).toString();
+        }
+    </script>
+</body>
+</html>

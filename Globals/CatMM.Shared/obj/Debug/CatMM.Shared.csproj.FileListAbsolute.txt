@@ -2,3 +2,4 @@ D:\Github\catmengmeng\Globals\CatMM.Shared\bin\Debug\CatMM.Shared.dll
 D:\Github\catmengmeng\Globals\CatMM.Shared\bin\Debug\CatMM.Shared.pdb
 D:\Github\catmengmeng\Globals\CatMM.Shared\obj\Debug\CatMM.Shared.dll
 D:\Github\catmengmeng\Globals\CatMM.Shared\obj\Debug\CatMM.Shared.pdb
+D:\Github\catmengmeng\Globals\CatMM.Shared\obj\Debug\CatMM.Shared.csprojResolveAssemblyReference.cache

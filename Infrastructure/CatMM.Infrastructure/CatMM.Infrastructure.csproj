@@ -110,6 +110,9 @@
     <Compile Include="TemplateEngine\ITemplateEngine.cs" />
     <Compile Include="TemplateEngine\ITemplateEngineProvider.cs" />
     <Compile Include="TypeFinder\AppDomainTypeFinder.cs" />
+    <Compile Include="Utilities\IOUtility.cs" />
+    <Compile Include="Utilities\PathUtility.cs" />
+    <Compile Include="Utilities\PdfUtility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

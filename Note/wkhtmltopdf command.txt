@@ -1,0 +1,3 @@
+cd c:\program files\wkhtmltopdf\bin
+wkhtmltopdf local.catmm.com/pdf tempname.pdf
+wkhtmltopdf --default-header local.catmm.com/pdf tempname.pdf 

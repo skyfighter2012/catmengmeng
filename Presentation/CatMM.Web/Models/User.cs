@@ -6,13 +6,17 @@ using System.Web;
 
 namespace CatMM.Web.Models
 {
-    public class User
+    public class User : Drop
     {
         public int Age { get; set; }
 
         public string Name { get; set; }
 
         public string FirstName { get; set; }
+
+        public DateTime CreateDate { get; set; }
+
+        public string UtcCreatedOn { get; set; }
 
         public SubUser Object { get; set; }
     }

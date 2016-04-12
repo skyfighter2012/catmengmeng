@@ -19,3 +19,12 @@ D:\Github\catmengmeng\Test\CatMM.Autofac.Study\bin\Debug\System.Web.WebPages.Dep
 D:\Github\catmengmeng\Test\CatMM.Autofac.Study\obj\Debug\CatMM.Autofac.Study.csprojResolveAssemblyReference.cache
 D:\Github\catmengmeng\Test\CatMM.Autofac.Study\obj\Debug\CatMM.Autofac.Study.exe
 D:\Github\catmengmeng\Test\CatMM.Autofac.Study\obj\Debug\CatMM.Autofac.Study.pdb
+D:\Github\catmengmeng\Test\CatMM.Autofac.Study\bin\Debug\Common.Logging.Core.dll
+D:\Github\catmengmeng\Test\CatMM.Autofac.Study\bin\Debug\Common.Logging.dll
+D:\Github\catmengmeng\Test\CatMM.Autofac.Study\bin\Debug\Quartz.dll
+D:\Github\catmengmeng\Test\CatMM.Autofac.Study\bin\Debug\Common.Logging.pdb
+D:\Github\catmengmeng\Test\CatMM.Autofac.Study\bin\Debug\Common.Logging.xml
+D:\Github\catmengmeng\Test\CatMM.Autofac.Study\bin\Debug\Common.Logging.Core.pdb
+D:\Github\catmengmeng\Test\CatMM.Autofac.Study\bin\Debug\Common.Logging.Core.xml
+D:\Github\catmengmeng\Test\CatMM.Autofac.Study\bin\Debug\Quartz.pdb
+D:\Github\catmengmeng\Test\CatMM.Autofac.Study\bin\Debug\Quartz.xml
