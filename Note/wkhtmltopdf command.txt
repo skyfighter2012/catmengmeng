@@ -1,3 +1,14 @@
 cd c:\program files\wkhtmltopdf\bin
 wkhtmltopdf local.catmm.com/pdf tempname.pdf
 wkhtmltopdf --default-header local.catmm.com/pdf tempname.pdf 
+
+本地html template
+1，链接的资源要用绝对路径
+2，
+
+default dpi : 96
+width:793
+height:
+
+Horizontal size = (8.27in)  x (600 pixels/in) = 4962 pixels
+Vertical size   = (11.69in) x (600 pixels/in) = 7014 pixels

@@ -16,7 +16,7 @@ namespace CatMM.Web.Controllers
     /// <summary>
     /// Home controller
     /// </summary>
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         public ActionResult Index()
         {
@@ -55,7 +55,7 @@ namespace CatMM.Web.Controllers
                 //    );
                 Template.NamingConvention = new CSharpNamingConvention();
                 var template = Template.Parse(templateText);
-                List<User> list = new List<User>();
+                List<User> list = null;
 
                 for (int i = 0; i < 10; i++)
                 {
@@ -65,7 +65,7 @@ namespace CatMM.Web.Controllers
                         Name = "qinglu_" + i,
                         Age = 20 + i,
                         CreateDate = DateTime.UtcNow,
-                        UtcCreatedOn=DateTime.UtcNow.ToString(),
+                        UtcCreatedOn = DateTime.UtcNow.ToString(),
                         Object = new SubUser
                         {
                             Age = 20 + i,
@@ -73,7 +73,7 @@ namespace CatMM.Web.Controllers
                             FirstName = "firname_" + i
                         }
                     };
-                    list.Add(user);
+                    //list.Add(user);
                 }
                 templateText = template.Render(Hash.FromAnonymousObject(new
                 {
@@ -81,6 +81,11 @@ namespace CatMM.Web.Controllers
                 }));
             }
             return Content(templateText, "text/html");
+        }
+
+        public ActionResult PageTest()
+        {
+            return View();
         }
 
         public ActionResult Scroll()

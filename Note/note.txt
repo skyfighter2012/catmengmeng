@@ -1,0 +1,7 @@
+tranlate 服务
+本地json文件 or remote
+
+
+
+
+如何监视windows中文件的改变

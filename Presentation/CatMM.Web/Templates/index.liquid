@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+	<h1>Template Index1111</h1>
+	{% for user in Users %}
+	<p>index liquid:{{ user.FirstName }}</p>
+	{% endfor %}
+	{% for RealEstateObject in Users %}
+	{% include Templates/includeTemplate.liquid with RealEstateObject%}
+	{% endfor %}
+
+	{% assign number = 123453.00 %}
+	nubmer :{{ number | FormatCurrency }}
+
+	{% assign index = 0 %}	
+	{% for RealEstateObject in Users %}
+	{% assign index = index | Plus : 1 %}
+	{{index}}
+	{% endfor %}
+</body>
+</html>

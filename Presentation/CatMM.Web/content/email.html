@@ -7,7 +7,21 @@
 </head>
 <body>
     {% for item in Objects %}
-    {{ item.CreateDate | Date : "yyyy-MM-dd" }} {{ item.CreateDate | Date : "%R" }} {{ item.UtcCreatedOn | date : "%R" }} {{ item.UtcCreatedOn | Date : "%R" }}<br />
+    {{ item.CreateDate | Date : "yyyy-MM-dd HH:mm:ss" }} <br />
     {% endfor %}
+
+    {% if Objects != null %}
+    Objects is not null
+    {% endif %}
+
+    {% if Objects.Size > 0 %}
+   4444
+    {% endif %}
+
+    Objects is not empty : {{Objects | Size}}
+
+    {% if Objects %}
+    any array is true
+    {% endif %}
 </body>
 </html>
