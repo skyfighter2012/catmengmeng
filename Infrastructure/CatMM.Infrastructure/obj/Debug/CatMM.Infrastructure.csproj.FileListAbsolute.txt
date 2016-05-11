@@ -27,4 +27,3 @@ D:\Github\catmengmeng\Infrastructure\CatMM.Infrastructure\bin\Debug\zh-Hans\Syst
 D:\Github\catmengmeng\Infrastructure\CatMM.Infrastructure\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
 D:\Github\catmengmeng\Infrastructure\CatMM.Infrastructure\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 D:\Github\catmengmeng\Infrastructure\CatMM.Infrastructure\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
-D:\Github\catmengmeng\Infrastructure\CatMM.Infrastructure\obj\Debug\CatMM.Infrastructure.csprojResolveAssemblyReference.cache

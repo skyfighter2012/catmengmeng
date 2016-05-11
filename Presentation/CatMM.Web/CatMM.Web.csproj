@@ -134,6 +134,7 @@
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\CssController.cs" />
     <Compile Include="Controllers\DownloadController.cs" />
+    <Compile Include="Controllers\GoogleController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\JsPluginController.cs" />
     <Compile Include="Controllers\PdfController.cs" />
@@ -234,6 +235,8 @@
     <Content Include="Templates\layout\layout.liquid" />
     <Content Include="Templates\index.liquid" />
     <Content Include="Templates\includeTemplate.liquid" />
+    <Content Include="Views\Google\StaticMap.cshtml" />
+    <Content Include="Views\Google\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\images\" />
