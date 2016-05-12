@@ -136,6 +136,7 @@
     <Compile Include="Controllers\DownloadController.cs" />
     <Compile Include="Controllers\GoogleController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\JsPatternController.cs" />
     <Compile Include="Controllers\JsPluginController.cs" />
     <Compile Include="Controllers\PdfController.cs" />
     <Compile Include="Controllers\TemplateController.cs" />
@@ -185,6 +186,7 @@
     <Content Include="Assets\scripts\doc.js" />
     <Content Include="Assets\scripts\fitimage.js" />
     <Content Include="Assets\scripts\jqueryTest.js" />
+    <Content Include="Assets\scripts\jspattern\interface.js" />
     <Content Include="Assets\scripts\utility.js" />
     <Content Include="content\email.html" />
     <Content Include="content\images\Chrysanthemum.jpg" />
@@ -237,6 +239,7 @@
     <Content Include="Templates\includeTemplate.liquid" />
     <Content Include="Views\Google\StaticMap.cshtml" />
     <Content Include="Views\Google\Index.cshtml" />
+    <Content Include="Views\JsPattern\Interface.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\images\" />
