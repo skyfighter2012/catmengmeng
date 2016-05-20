@@ -1,4 +1,25 @@
 ﻿@section UsingScript{
-    <script src="~/Assets/scripts/jspattern/interface.js"></script>    
+    <script src="~/Assets/scripts/jspattern/interface.js"></script>
 }
 <h1>Interface</h1>
+@{
+
+    var uri = new Uri("https://rnext0dev.blob.core.windows.net/pdfs/2016-05-20-02-58-39-666/kanaalweg%2015.pdf");
+    var type = uri.GetType();
+    var properties = type.GetProperties();
+}
+
+@foreach (var pro in properties)
+{
+    <p>
+        <em>@pro.Name  :</em>
+        <span>
+            @{ 
+                string value = pro.GetValue(uri) as string;
+            }
+            @value
+
+          @HttpUtility.UrlDecode(value)
+        </span>
+    </p>
+}

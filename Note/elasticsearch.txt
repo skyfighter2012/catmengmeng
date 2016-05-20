@@ -1,0 +1,87 @@
+Elasticsearch中存储数据的行为就叫做索引(indexing)
+
+Relational DB -> Databases -> Tables -> Rows -> Columns
+Elasticsearch -> Indices   -> Types  -> Documents -> Fields
+
+索引->数据库
+类型->表
+文档->行
+字段->列
+
+Es RESTFul API
+
+host:port/indexName/typeName/documentId
+
+/indexName/typeName/_search   :获取所有文档，默认情况下搜索会返回前10个结果
+HttpPut:新建
+HttpGet:获取
+
+
+搜索：
+1,查询字符串(query string)  :GET  /indexName/typeNaem/_search?q=fieldName:fieldValue
+2,DSL语句查询 :POST /indexName/typeName/_search
+{
+	"query":{
+		"match":{
+			"fieldName":"fieldValue"
+		}
+	}		
+}
+
+
+Index Api 
+
+Create:
+	PUT/POST /{indexName}/{typeName}/{id} 如果已经存在，更新整个文档,_version++;
+	{
+		jsonData
+	}  
+
+	POST /{indexName}/{typeName}/    --->只能POST ，PUT是不行滴（400 BAD REQUEST）
+	{
+		jsonData
+	}
+
+	PUT/POST /{indexName}/{typeName}/{id}?op_type=create  -->
+	PUT/POST /{indexName}/{typeName}/{id}/_create         -->if not existed 201(Created) ,else 409(Conflict)
+	{
+		jsonData
+	}
+
+Query:
+	GET /{indexName}/{typeName}/{id}  -->获取文档，包含元数据；
+	
+	GET /{indexNaem}/{typeName}/{id}??_source=field1,field2,.....  -->获取指定键的jsondata，其中结果包含元数据；
+
+	GET /{indexName}/{typeName}/{id}/_source  -->结果不包含元数据
+
+UPDATE:
+
+文档在Elasticsearch中是不可变的，我们不能修改他们,只能被替换
+1,使用index API重建索引(reindex) 或者替换掉它
+
+2,使用update API
+	a,从旧文档中检索JSON
+	b,修改它
+	c,删除旧文档
+	d,索引新文档
+
+
+POST /{indexName}/{typeName}/{id}/_update
+{
+	"doc":{
+		jsonData
+	}
+}
+
+OR
+{
+	"script":"ctx._source.[key]=params1",
+	"params":{
+		key:value
+	}
+}
+
+
+DELETE:
+	DELETE /{indexName}/{typeName}/{id}  --> if doc exists 200(OK) _version++ , else 404(Not Found) _version++
