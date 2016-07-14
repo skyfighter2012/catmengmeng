@@ -10,6 +10,8 @@ using CatMM.Web.Models;
 using DotLiquid;
 using DotLiquid.NamingConventions;
 using CatMM.Infrastructure.TemplateEngine.Filiters;
+using CatMM.Shared;
+using System.Text.RegularExpressions;
 
 namespace CatMM.Web.Controllers
 {
@@ -20,7 +22,20 @@ namespace CatMM.Web.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.DesignPaths = ListDesignPaths();
             return View();
+        }
+
+        private List<string> ListDesignPaths()
+        {
+            string path = SiteConfig.DesignAbsolutePath;
+            List<string> pathNames = new List<string>();
+            if (Directory.Exists(path))
+            {
+                pathNames = Directory.GetDirectories(path).Select(it => Regex.Replace(it, @"^.+[/\\]", "")).ToList();
+            }
+
+            return pathNames;
         }
 
         public ActionResult Jquery()

@@ -1,0 +1,242 @@
+var states={
+	commonStates=[
+		{
+			name:"common.dashbord",
+			config:{
+	            url: "",
+	            templateUrl: "/Templates/home/dashboard.tpl.html".mapPath(),
+	            data: { pageTitle: 'Admin Dashboard Template' },
+	            permissionCode: PermissionNameConstrant.Open,
+	            controller: "DashboardController",
+	            resolve: {
+	                deps: ['$ocLazyLoad', function ($ocLazyLoad) {
+	                    return $ocLazyLoad.load({
+	                        name: 'realNextServiceWebApp',
+	                        insertBefore: '#ng_load_plugins_before', // load the above css files before a LINK element with this ID. Dynamic CSS files must be loaded between core and theme css files
+	                        files: [
+	                            '/assets/global/plugins/morris/morris.css'.mapPath(),
+	                            '/assets/global/plugins/morris/morris.min.js'.mapPath(),
+	                            '/assets/global/plugins/morris/raphael-min.js'.mapPath(),
+	                            '/assets/global/plugins/jquery.sparkline.min.js'.mapPath(),
+	                            '/assets/pages/scripts/dashboard.min.js'.mapPath(),
+	                            '/scripts/modules/home/controllers/DashboardController.js'.mapPath(),
+	                        ]
+	                    });
+	                }]
+	            }
+        	}
+		},
+		{
+			name:"common:resetpassword",
+			config:{
+	            url: '/account/resetpassword?userid&code',
+	            templateUrl: '/Templates/account/resetpassword.tpl.html'.mapPath(),
+	            permissionCode: PermissionNameConstrant.Open,
+	            controller: 'resetPasswordController'
+	        }
+		}
+	],
+	offerStates=[
+		{
+			name:"offer.overview",
+			config:{
+	            url: '/offer/overview/my',
+	            templateUrl: '/Templates/realEstateObject/overview.tpl.html'.mapPath(),
+	            controller: "OfferOverviewController",
+	            permissionCode: PermissionNameConstrant.ViewAllRealEstateObjects,
+	            resolve: {
+	                tabName: function () {
+	                    return "myObjects";
+	                }
+	            }
+	        }
+		},
+		{
+			name:"offer.overview.allOffers",
+			config:{
+	            url: '/offer/overview/all',
+	            templateUrl: '/Templates/realEstateObject/overview.tpl.html'.mapPath(),
+	            controller: "OfferOverviewController",
+	            permissionCode: PermissionNameConstrant.ViewAllRealEstateObjects,
+	            resolve: {
+	                tabName: function () {
+	                    return "allObjects";
+	                }
+	            }
+	        }
+		},
+		{
+			name:"offer.overview.myOffers",
+			config:{
+	            url: '/offer/overview/my',
+	            templateUrl: '/Templates/realEstateObject/overview.tpl.html'.mapPath(),
+	            controller: "OfferOverviewController",
+	            permissionCode: PermissionNameConstrant.ViewAllRealEstateObjects,
+	            resolve: {
+	                tabName: function () {
+	                    return "myObjects";
+	                }
+	            }
+	        }
+		},
+		{
+			name:"offer.overview.linkedOwnOffers",
+			config:{
+	            url: '/offer/overview/linked-own-offers',
+	            templateUrl: '/Templates/realEstateObject/overview.tpl.html'.mapPath(),
+	            controller: "OfferOverviewController",
+	            permissionCode: PermissionNameConstrant.ViewAllRealEstateObjects,
+	            resolve: {
+	                tabName: function () {
+	                    return "linkedOwnOffers";
+	                }
+	            }
+	        }
+		},
+		{
+			name:"offer.overview.acceptedLinkedOffers",
+			config:{
+	            url: '/offer/overview/accepted-linked-offer',
+	            templateUrl: '/Templates/realEstateObject/overview.tpl.html'.mapPath(),
+	            controller: "OfferOverviewController",
+	            permissionCode: PermissionNameConstrant.ViewAllRealEstateObjects,
+	            resolve: {
+	                tabName: function () {
+	                    return "acceptedLinkedOffers";
+	                }
+	            }
+	        }
+		},
+		{
+			name:"offer.overview.linkedOfferRequests",
+			config:{
+	            url: '/offer/overview/linked-offer-requests',
+	            templateUrl: '/Templates/realEstateObject/overview.tpl.html'.mapPath(),
+	            controller: "OfferOverviewController",
+	            permissionCode: PermissionNameConstrant.ViewAllRealEstateObjects,
+	            resolve: {
+	                tabName: function () {
+	                    return "linkedOfferRequests";
+	                }
+	            }
+	        }
+		},
+		{
+			name:"offer.overview.rejectedLinkedOffers",
+			config:{
+	            url: '/offer/overview/rejected-linked-offer',
+	            templateUrl: '/Templates/realEstateObject/overview.tpl.html'.mapPath(),
+	            controller: "OfferOverviewController",
+	            permissionCode: PermissionNameConstrant.ViewAllRealEstateObjects,
+	            resolve: {
+	                tabName: function () {
+	                    return "rejectedLinkedOffer";
+	                }
+	            }
+	        }
+		},
+		{
+			name:"offer.overview.draftOffers",
+			config:{
+	            url: '/offer/overview/draft',
+	            templateUrl: '/Templates/realEstateObject/overview.tpl.html'.mapPath(),
+	            controller: "OfferOverviewController",
+	            permissionCode: PermissionNameConstrant.ViewAllRealEstateObjects,
+	            resolve: {
+	                tabName: function () {
+	                    return "draftObjects";
+	                }
+	            }
+	        }
+		},
+		{
+			name:"offer.overview.archivedOffers",
+			config:{
+	            url: '/offer/overview/archived',
+	            templateUrl: '/Templates/realEstateObject/overview.tpl.html'.mapPath(),
+	            controller: "OfferOverviewController",
+	            permissionCode: PermissionNameConstrant.ViewAllRealEstateObjects,
+	            resolve: {
+	                tabName: function () {
+	                    return "archivedObjects";
+	                }
+	            }
+	        }
+		},
+		{
+			name:"offer.overview.fromSearch",
+			config:{
+		        url: '/offer/overview/:keyword',
+		        templateUrl: '/Templates/realEstateObject/overview.tpl.html'.mapPath(),
+		        controller: "OfferOverviewController",
+		        permissionCode: PermissionNameConstrant.ViewAllRealEstateObjects
+		    }
+		},		
+		{
+			name:"offer.statistics",
+			config:{
+	            url: '/offer/statistics/:friendlyId',
+	            templateUrl: '/Templates/realEstateObject/analytics.tpl.html'.mapPath(),
+	            controller: 'OfferAnalyticsController',
+	            permissionCode: PermissionNameConstrant.EditRealEstateObject,
+	            resolve: {
+	                readOnly: function () {
+	                    return false;
+	                }
+	            }
+	        }
+		},
+		{
+			name:"offer.detail",
+			config:{
+	            url: '/offer/detail/:id',
+	            templateUrl: '/Templates/realEstateObject/detail/detail.tpl.html'.mapPath(),
+	            controller: 'OfferDetailController',
+	            permissionCode: PermissionNameConstrant.EditRealEstateObject,
+	            resolve: {
+	                readOnly: function () {
+	                    return false;
+	                }
+	            }
+	        }
+		},
+		{
+			name:"offer.detail.withkeyword",
+			config:{
+	            url: '/offer/detail/{id:string}/{keyword:string}',
+	            templateUrl: '/Templates/realEstateObject/detail/detail.tpl.html'.mapPath(),
+	            controller: 'OfferDetailController',
+	            permissionCode: PermissionNameConstrant.EditRealEstateObject,
+	            resolve: {
+	                readOnly: function () {
+	                    return false;
+	                }
+	            }
+	        }
+		},
+		{
+			name:"offer.detail.view",
+			config:{
+	            url: '/offer/view/:id',
+	            templateUrl: '/Templates/realEstateObject/view.tpl.html'.mapPath(),
+	            controller: 'OfferViewController',
+	            permissionCode: PermissionNameConstrant.LinkedOfferViewInvite,
+	            resolve: {
+	                readOnly: function () {
+	                    return true;
+	                }
+	            }
+	        }
+		},
+		{
+			name:"offer.add",
+			config:{
+	            url: '/offer/add{step:.*}',
+	            templateUrl: '/Templates/realEstateObject/add.tpl.html'.mapPath(),
+	            permissionCode: PermissionNameConstrant.CreateRealEstateObject,
+	            controller: 'AddOfferController'
+	        }
+		}
+	],
+
+}

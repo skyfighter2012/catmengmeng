@@ -31,5 +31,25 @@ namespace CatMM.Shared
                 return _googleApiKey;
             }
         }
+
+        private static string _designAbsolutePath = ConfigurationManager.AppSettings["DesignAbsolutePath"];
+
+        public static string DesignAbsolutePath
+        {
+            get
+            {
+                return _designAbsolutePath;
+            }
+        }
+
+        private static string _designDomain = ConfigurationManager.AppSettings["DesignDomain"];
+
+        public static string DesignDomain
+        {
+            get
+            {
+                return _designDomain;
+            }
+        }
     }
 }

@@ -1,7 +1,14 @@
-﻿
-<h1>@SiteConfig.Domain</h1>
-<div class="jumbotron">
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
-<
+﻿@{
+    ViewBag.Title = "7pixel";
+    List<string> paths = ViewBag.DesignPaths as List<string>;
+    string designDomain = SiteConfig.DesignDomain;
+}
+<ul>
+    @foreach (string path in paths)
+    {
+        string url = String.Format("http://{0}/{1}", designDomain, path);
+        <li>
+            <a href="@url" target="_blank">@path</a>
+        </li>
+    }
+</ul>
