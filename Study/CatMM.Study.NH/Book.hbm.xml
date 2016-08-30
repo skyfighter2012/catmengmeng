@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CatMM.Study.NH" namespace="CatMM.Study.NH.Core" >
+  <subclass name="Book" extends="Product">
+    <property name="ISBN" />
+    <property name="Author" />
+  </subclass>
+</hibernate-mapping>

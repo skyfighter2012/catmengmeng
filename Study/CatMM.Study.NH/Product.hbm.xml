@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CatMM.Study.NH" namespace="CatMM.Study.NH.Core">
+  <!--tells NHibernate that this class element defines the
+  mapping for our entity class "Product"-->
+  <class name="Product">
+    <!--POID : Persistent object identifier,identity an entity in memory-->
+    <id name="Id">
+      <generator class="guid.comb"  />
+    </id>
+    <discriminator column="ProductType" />
+    <natural-id mutable="true">
+      <property name="Name" not-null="true" />
+    </natural-id>
+    <!--property elements define properties on our Product class,
+     name attribute:matches the name of a property on our Product class-->
+    <property name="Description" />
+    <property name="UnitPrice" not-null="true" type="Currency" />
+  </class>
+</hibernate-mapping>
