@@ -1,0 +1,1 @@
+2016-03-21 16:17:01,378 [1] DEBUG HibernatingRhinos.Profiler.Client.App [(null)] - Profiler initialized. Build: 3093
