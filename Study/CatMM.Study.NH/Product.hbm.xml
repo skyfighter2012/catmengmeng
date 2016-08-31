@@ -2,11 +2,12 @@
 <hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CatMM.Study.NH" namespace="CatMM.Study.NH.Core">
   <!--tells NHibernate that this class element defines the
   mapping for our entity class "Product"-->
-  <class name="Product">
+  <class name="Product" >
     <!--POID : Persistent object identifier,identity an entity in memory-->
     <id name="Id">
       <generator class="guid.comb"  />
     </id>
+    <version name="Version" />
     <discriminator column="ProductType" />
     <natural-id mutable="true">
       <property name="Name" not-null="true" />

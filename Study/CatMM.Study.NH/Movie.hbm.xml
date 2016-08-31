@@ -2,5 +2,13 @@
 <hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CatMM.Study.NH" namespace="CatMM.Study.NH.Core" >
   <subclass name="Movie" extends="Product">
     <property name="Director" />
+    <list name="Actors" cascade="all-delete-orphan" >
+      <!--The key element tells NHibernate to store this in a column named MovieId-->
+      <key column="MovieId" />
+      <!--index element defines the ActorIndex column to store the
+position of each element in the list-->
+      <index column="ActorIndex"  />
+      <one-to-many class="ActorRole" />
+    </list>
   </subclass>
 </hibernate-mapping>
